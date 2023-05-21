@@ -1,0 +1,465 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 15791 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/UnityProjects1Tb/Galeria3D
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+65479
+Successfully changed project path to: D:/UnityProjects1Tb/Galeria3D
+D:/UnityProjects1Tb/Galeria3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Unable to join player connection multicast group (err: 10022).
+Unable to join player connection alternative multicast group (err: 10022).
+Refreshing native plugins compatible for Editor in 130.61 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 1.22 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects1Tb/Galeria3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   31.0.15.2225
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017569 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 424 ms
+Refreshing native plugins compatible for Editor in 110.17 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.333 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1333ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1060ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (804ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (527ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016434 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects1Tb\Galeria3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects1Tb\Galeria3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 95.02 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path D:\UnityProjects1Tb\Galeria3D\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
+  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <41838102482648dc890600679ce0a813>:0 
+  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <41838102482648dc890600679ce0a813>:0 
+  at Google.ProjectSettings.Save () [0x0006d] in /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:821 , Project settings were not saved!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Google.Logger:Log (string,Google.LogLevel) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
+Google.ProjectSettings:Save () (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
+Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
+Google.ProjectSettings:SetBool (string,bool) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
+Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1040)
+Google.IOSResolver:.cctor () (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:726)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
+
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in D:\UnityProjects1Tb\Galeria3D\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\UnityProjects1Tb\Galeria3D\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7fef092428a04dc89d2aa6ad3ce5d856>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.435 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1436ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1185ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (302ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (669ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (407ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.52 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3793 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 132 unused Assets / (114.9 KB). Loaded Objects now: 4169.
+Memory consumption went from 138.6 MB to 138.5 MB.
+Total: 3.591200 ms (FindLiveObjects: 0.380400 ms CreateObjectMapping: 0.106200 ms MarkObjects: 2.863700 ms  DeleteObjects: 0.239500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 39645.469734 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(de7d3063fcc18d240b303ec96889c836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(de7d3063fcc18d240b303ec96889c836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92042deedec67f0e2e439cc5a0ef88f') in 0.013588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.466978 seconds.
+  path: Assets/Galeria Portal/Materials
+  artifactKey: Guid(be318aa517c6350418209247b06e6f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galeria Portal/Materials using Guid(be318aa517c6350418209247b06e6f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918018f970348e4917f2f46f1ba40828') in 0.010063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.675028 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80eac52e82f594577a2befb0f327095d') in 0.009808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46782.784481 seconds.
+  path: Assets/todo aqui/Galeria_virtual_escena.unity
+  artifactKey: Guid(89826824156edf048b68cbe560190f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/todo aqui/Galeria_virtual_escena.unity using Guid(89826824156edf048b68cbe560190f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ab32f0b04eef593fe9430dcc1cdb8d') in 0.015545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.587781 seconds.
+  path: Assets/todo aqui/Galeria Virtual
+  artifactKey: Guid(95d1253dcdb8ec34b8b830db649967bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/todo aqui/Galeria Virtual using Guid(95d1253dcdb8ec34b8b830db649967bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a321c2ac637385109445ee0cb7b962b0') in 0.010468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.342169 seconds.
+  path: Assets/todo aqui/Galeria Virtual/galeria.unity
+  artifactKey: Guid(a9af1e16ca839fa47b9c76c23ef495ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/todo aqui/Galeria Virtual/galeria.unity using Guid(a9af1e16ca839fa47b9c76c23ef495ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfd87ef940c2e4f7867c6b22d248cd4') in 0.009358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.877226 seconds.
+  path: Assets/todo aqui/Galeria Virtual/models
+  artifactKey: Guid(242a3d89e7a36664ea710ca7eb98f61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/todo aqui/Galeria Virtual/models using Guid(242a3d89e7a36664ea710ca7eb98f61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a40ac1b6bb3bd5e3f6db3d5c45f3691') in 0.012954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066211 seconds.
+  path: Assets/todo aqui/Galeria Virtual/models/galeria 1.skp
+  artifactKey: Guid(442a8e87b95a2a548a0c438e11a70226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/todo aqui/Galeria Virtual/models/galeria 1.skp using Guid(442a8e87b95a2a548a0c438e11a70226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b617df372c98ffb50ae56b354c4309') in 0.853573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/todo aqui/Galeria Virtual/models/Galeria Portal.skp
+  artifactKey: Guid(eabf40fda76565648af0c65f7af292de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/todo aqui/Galeria Virtual/models/Galeria Portal.skp using Guid(eabf40fda76565648af0c65f7af292de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0933481059348f0d7e1d313cf4f4accb') in 0.525846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.009821 seconds.
+  path: Assets/BNG Framework/Materials/BNG_Atlas_A.mat
+  artifactKey: Guid(2c986bd867496904bb4d93ca6c777f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/BNG_Atlas_A.mat using Guid(2c986bd867496904bb4d93ca6c777f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29abb6f5763b6c0ffffc520a89142c6') in 0.043917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.175517 seconds.
+  path: Assets/BNG Framework/Materials/Crowbar_Tex.mat
+  artifactKey: Guid(5526f6616ddf95f45bfca3ac406b4bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/Crowbar_Tex.mat using Guid(5526f6616ddf95f45bfca3ac406b4bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d2af4dd1e96c78eeb2f939888cda2d') in 0.027088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BNG Framework/HandPoser/Materials/DebugMaterial2.mat
+  artifactKey: Guid(df617ef0a04e8ba44b032ca1453aba3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Materials/DebugMaterial2.mat using Guid(df617ef0a04e8ba44b032ca1453aba3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa2b23c69752f2c4185e0afe32f8f12') in 0.023691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BNG Framework/HandPoser/Materials/DefaultHandPose.mat
+  artifactKey: Guid(e3df546e5660b4e4da0d686c93c9cf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Materials/DefaultHandPose.mat using Guid(e3df546e5660b4e4da0d686c93c9cf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef51c9f990b77177efafb3397f01752b') in 0.024030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BNG Framework/Fonts/Montserrat-Light.ttf
+  artifactKey: Guid(0ebbcec4dd8e2f040b163f10df7e8382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Fonts/Montserrat-Light.ttf using Guid(0ebbcec4dd8e2f040b163f10df7e8382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22dfc558156c28010892081a4e40b557') in 0.052387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BNG Framework/HandPoser/Materials/fully_gloved_solid.mat
+  artifactKey: Guid(fe175d6eefef8eb42933b1cf8b23d5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Materials/fully_gloved_solid.mat using Guid(fe175d6eefef8eb42933b1cf8b23d5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ddf34791e9e29b2cfb77a36e64417d') in 0.217864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BNG Framework/Materials/FeatherMaterial.mat
+  artifactKey: Guid(326cb4f2045321a48b513bc3d80f9da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/FeatherMaterial.mat using Guid(326cb4f2045321a48b513bc3d80f9da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fef533ce3a9be0d5c6a5b66c4ace16') in 0.091709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3113df9c64817575ac1b2596df0c09') in 0.032157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BNG Framework/Materials/explosion.mat
+  artifactKey: Guid(b520c228c741bd3438c7ca8131701c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/explosion.mat using Guid(b520c228c741bd3438c7ca8131701c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9de1cf304ebfad70ad50798445e1bc') in 0.191324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050523 seconds.
+  path: Assets/BNG Framework/HandPoser/Materials/gloved_SHD 1.mat
+  artifactKey: Guid(92561a33fe3fddc4aa21b32e928d46ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Materials/gloved_SHD 1.mat using Guid(92561a33fe3fddc4aa21b32e928d46ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b456a6c9544113fb10766e3d1256dc7a') in 0.212141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BNG Framework/Models/BNG_E_Orange.fbx
+  artifactKey: Guid(017351951c7b94c42a992ae625ec6a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_E_Orange.fbx using Guid(017351951c7b94c42a992ae625ec6a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2bf07d3954dd1205fdd4be7853fc5d') in 0.160582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BNG Framework/Materials/NavyFloor.mat
+  artifactKey: Guid(3e14a760198d8714288e9921d74985a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/NavyFloor.mat using Guid(3e14a760198d8714288e9921d74985a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8dfb0cc4a1865429f906120b0e3a73') in 0.131510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BNG Framework/Materials/GridWhite.mat
+  artifactKey: Guid(f4d1c14f9d7087643856f2c5965d05f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/GridWhite.mat using Guid(f4d1c14f9d7087643856f2c5965d05f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2b0e1889a13068dfcd88f6f83b646d') in 0.029686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BNG Framework/Models/BNG_Table_Wood_01.fbx
+  artifactKey: Guid(b9206e3087ebd9046af7ef7627cd392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_Table_Wood_01.fbx using Guid(b9206e3087ebd9046af7ef7627cd392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d94f229ba3fe53ef6aca2dff9ba7755') in 0.060061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c03ef0685716eb49c849513d3fc62c') in 0.092354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/BNG Framework/Models/BNG_Bow.fbx
+  artifactKey: Guid(47f266b2147c691429f4f84126899780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_Bow.fbx using Guid(47f266b2147c691429f4f84126899780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7cb7606cd1e495308c6fc83ada7b1f') in 0.096878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BNG Framework/Models/Hands/phong3.mat
+  artifactKey: Guid(0dbf0f193879a11408be31ef3a13ae2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/Hands/phong3.mat using Guid(0dbf0f193879a11408be31ef3a13ae2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd199552b754a7d51d3d4b800c72b21b7') in 0.029310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5781fbe057ddf4f86a290c25a0230c9c') in 0.046152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BNG Framework/Models/Hands/phong4.mat
+  artifactKey: Guid(b9f6f361e2936314db523dcd84265a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/Hands/phong4.mat using Guid(b9f6f361e2936314db523dcd84265a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b920232ae80e0d6ec792aef1d36ddde1') in 0.058259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BNG Framework/Materials/GridGrey.mat
+  artifactKey: Guid(4b82e6e57b94d4647bd0ca0e48a1bb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/GridGrey.mat using Guid(4b82e6e57b94d4647bd0ca0e48a1bb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82692f9a6c363de67066bbe6b4453a61') in 0.034221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/BNG Framework/Models/Hands/handDark.mat
+  artifactKey: Guid(ae0be99e46b86674184a4d2cac834552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/Hands/handDark.mat using Guid(ae0be99e46b86674184a4d2cac834552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fd139a55c30ea11d75a040ba25cf3c') in 0.092935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BNG Framework/Materials/GridDark.mat
+  artifactKey: Guid(f1b421362f6dab94ead65ca98c6043fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/GridDark.mat using Guid(f1b421362f6dab94ead65ca98c6043fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c081b32d1389348ac5c6bb2c51620e') in 0.033301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BNG Framework/Materials/GridRed.mat
+  artifactKey: Guid(eb4f63a1c24846549b212d7c7f64a784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/GridRed.mat using Guid(eb4f63a1c24846549b212d7c7f64a784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9411e3deb616ef85578f49133db70d52') in 0.030885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BNG Framework/Materials/GridPurple.mat
+  artifactKey: Guid(6e1bc48a70d4eac43979a3d635c75933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/GridPurple.mat using Guid(6e1bc48a70d4eac43979a3d635c75933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d89d5413bc676a530d504560ac7c85') in 0.049750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BNG Framework/Models/BNG_E_Gray.fbx
+  artifactKey: Guid(b7352ee9a01a3334e8dba7d61a8186e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_E_Gray.fbx using Guid(b7352ee9a01a3334e8dba7d61a8186e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf04842c8f99f3c7ae4dbcda001fdf6') in 0.141979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BNG Framework/Models/BNG_Gun_Rifle.fbx
+  artifactKey: Guid(629446d0a25b751468c9d7eb68c7cb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_Gun_Rifle.fbx using Guid(629446d0a25b751468c9d7eb68c7cb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1287a5bf08893c971af459b8446d7a') in 0.123938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BNG Framework/Materials/GridOrange.mat
+  artifactKey: Guid(5630dc096eda4ef40a62570257f9bb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/GridOrange.mat using Guid(5630dc096eda4ef40a62570257f9bb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87727af64219b34650fe213edbc307db') in 0.032438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BNG Framework/Materials/GridYellow.mat
+  artifactKey: Guid(fc69318049f082042bb7eb4cecce83e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/GridYellow.mat using Guid(fc69318049f082042bb7eb4cecce83e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7862c37252db8693fd771b10189cd9d5') in 0.027326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BNG Framework/Materials/InvalidTeleport.mat
+  artifactKey: Guid(4368c55417ad797408281bc443f1dfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/InvalidTeleport.mat using Guid(4368c55417ad797408281bc443f1dfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3dc29072fba9014af4318ef1f3843f0') in 0.025407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BNG Framework/Materials/Glow.mat
+  artifactKey: Guid(398d4f6f7afb145419197ebb32ef6a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/Glow.mat using Guid(398d4f6f7afb145419197ebb32ef6a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2f1056ff3fd91f83f129f2300414cc') in 0.018286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BNG Framework/Models/Hands/phong2.mat
+  artifactKey: Guid(12dc05bc461264e40aa58240d9538398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/Hands/phong2.mat using Guid(12dc05bc461264e40aa58240d9538398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcb44cdcc088962c7de9cc58171722c') in 0.026954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BNG Framework/Models/BNG_Melee_Katana.fbx
+  artifactKey: Guid(7276ff191256962448d44af85114a1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_Melee_Katana.fbx using Guid(7276ff191256962448d44af85114a1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d29a78aca08bd35dbafc49620fcde73') in 0.031670 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

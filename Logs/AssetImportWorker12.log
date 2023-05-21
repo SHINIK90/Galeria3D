@@ -1,0 +1,358 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 15791 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker12
+-projectPath
+D:/UnityProjects1Tb/Galeria3D
+-logFile
+Logs/AssetImportWorker12.log
+-srvPort
+65479
+Successfully changed project path to: D:/UnityProjects1Tb/Galeria3D
+D:/UnityProjects1Tb/Galeria3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Unable to join player connection multicast group (err: 10022).
+Unable to join player connection alternative multicast group (err: 10022).
+Refreshing native plugins compatible for Editor in 125.32 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 1.14 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects1Tb/Galeria3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   31.0.15.2225
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015961 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 446 ms
+Refreshing native plugins compatible for Editor in 98.73 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.269 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1269ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1007ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (146ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (769ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (542ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.017754 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects1Tb\Galeria3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects1Tb\Galeria3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 98.34 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in D:\UnityProjects1Tb\Galeria3D\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\UnityProjects1Tb\Galeria3D\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7fef092428a04dc89d2aa6ad3ce5d856>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.573 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1574ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1313ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (723ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (453ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 3793 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 132 unused Assets / (114.8 KB). Loaded Objects now: 4174.
+Memory consumption went from 139.5 MB to 139.4 MB.
+Total: 3.755300 ms (FindLiveObjects: 0.398100 ms CreateObjectMapping: 0.177700 ms MarkObjects: 3.013700 ms  DeleteObjects: 0.164300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 110122.745882 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackground.png
+  artifactKey: Guid(c4b66e31395c54087a2fbc13ae7e0f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackground.png using Guid(c4b66e31395c54087a2fbc13ae7e0f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50037c98d09ae1cfa6dac5b2dda95578') in 0.144597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28333.749680 seconds.
+  path: Assets/_OBRAS/Illustraciones
+  artifactKey: Guid(285701977f5e5144296ff82982a0a8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/Illustraciones using Guid(285701977f5e5144296ff82982a0a8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bee2a1a1b57b3a86d065c8affc6c39d') in 0.014226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.945989 seconds.
+  path: Assets/_OBRAS/Fotografia
+  artifactKey: Guid(b0d6b33ffbb299945a5c423e28cc31b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/Fotografia using Guid(b0d6b33ffbb299945a5c423e28cc31b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665912e6c26da0f5a3e3f9f0f53fe6e4') in 0.012006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054696 seconds.
+  path: Assets/_OBRAS/Fotografia/Actriz teatro_Santiago_Flores - Santiago Flores.jpg
+  artifactKey: Guid(93ea19ecab29a9a489f71a133eca65bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/Fotografia/Actriz teatro_Santiago_Flores - Santiago Flores.jpg using Guid(93ea19ecab29a9a489f71a133eca65bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fb3aa259ae327746a94e56a7949633') in 0.150313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_OBRAS/Fotografia/mask_MartinMaldonado.jpg
+  artifactKey: Guid(ffe2136576ec83949910eb7a41d0e7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/Fotografia/mask_MartinMaldonado.jpg using Guid(ffe2136576ec83949910eb7a41d0e7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8171c0441123fb727959f604ea4a6cbb') in 0.054642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/_OBRAS/Fotografia/ElNiño_Jose_Vargas - Jose Vargas.png
+  artifactKey: Guid(9202d312faf5b5643a6468c4fc60e050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/Fotografia/ElNiño_Jose_Vargas - Jose Vargas.png using Guid(9202d312faf5b5643a6468c4fc60e050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83a397eb1e3e141eca39ce067bf4279') in 0.053076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 562.044729 seconds.
+  path: Assets/_OBRAS/Illustraciones/Materials/Atenea_CntrlEse - Cntrl Ese.mat
+  artifactKey: Guid(54d4a7c8e84703146b0f4d378cfd22bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/Illustraciones/Materials/Atenea_CntrlEse - Cntrl Ese.mat using Guid(54d4a7c8e84703146b0f4d378cfd22bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33fb967b30f47839e02614cf5481463') in 0.249524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.363259 seconds.
+  path: Assets/_OBRAS/Illustraciones/Materials/El chulla_Mateo_Garay - Mateo Garay.mat
+  artifactKey: Guid(23a95a9dea8d88c45a4d2d1ab36783aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/Illustraciones/Materials/El chulla_Mateo_Garay - Mateo Garay.mat using Guid(23a95a9dea8d88c45a4d2d1ab36783aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75085d6c3df05e7b234383fa208e8e23') in 0.074667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1331.993363 seconds.
+  path: Assets/_PREFABS
+  artifactKey: Guid(e110e3a9e40263840a4b27caf4c6b8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PREFABS using Guid(e110e3a9e40263840a4b27caf4c6b8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6dce53425bbba8fa4038eeeceec917') in 0.009807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.947918 seconds.
+  path: Assets/_PREFABS/Crystal.prefab
+  artifactKey: Guid(c0d16b92583a24841b40ebe6e2761ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PREFABS/Crystal.prefab using Guid(c0d16b92583a24841b40ebe6e2761ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c14adfe0a70830587dfdc6608856905') in 0.041911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 221.615621 seconds.
+  path: Assets/_PREFABS/Crystal.prefab
+  artifactKey: Guid(c0d16b92583a24841b40ebe6e2761ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PREFABS/Crystal.prefab using Guid(c0d16b92583a24841b40ebe6e2761ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71ba4ac59b775bef5c4b057b419f391') in 0.095861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1505.796214 seconds.
+  path: Assets/_OBRAS/Videos
+  artifactKey: Guid(c8feeddabfb939e4784ae02f87c776af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/Videos using Guid(c8feeddabfb939e4784ae02f87c776af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f8e414efb002f0a020789497533fb0') in 0.010140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068310 seconds.
+  path: Assets/_OBRAS/Videos/Benson vigila_Carla Torres - Cntrl Ese.gif
+  artifactKey: Guid(5351c99b468218c4988b9d6040e365a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/Videos/Benson vigila_Carla Torres - Cntrl Ese.gif using Guid(5351c99b468218c4988b9d6040e365a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd659cf2eb89c3b9d5779836451629c') in 0.048476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_OBRAS/Videos/uvilla_paulina_chuga - Paulina Chugá.gif
+  artifactKey: Guid(23ce73a3d44f76c4c88551a3199c1f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/Videos/uvilla_paulina_chuga - Paulina Chugá.gif using Guid(23ce73a3d44f76c4c88551a3199c1f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023928b2f06714a93239f6046bc43c72') in 0.066332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_OBRAS/Videos/cinema babylon - Sebastian Andocillia.mp4
+  artifactKey: Guid(6d43e079e52aa164599a42c601fd2a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/Videos/cinema babylon - Sebastian Andocillia.mp4 using Guid(6d43e079e52aa164599a42c601fd2a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7781aa3213daae49d5e85a979e92dd08') in 0.035207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/_OBRAS/Videos/pitajaya_paulina_chuga - Paulina Chugá.gif
+  artifactKey: Guid(d223c3d2cf2c18d4396819b93a5fca98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/Videos/pitajaya_paulina_chuga - Paulina Chugá.gif using Guid(d223c3d2cf2c18d4396819b93a5fca98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf3cdac3e4725767904a6c1c383e193') in 0.041646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 367.020655 seconds.
+  path: Assets/_OBRAS/vr02.png
+  artifactKey: Guid(0d4c827cfbfb0d14c846bfdb30ebbef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/vr02.png using Guid(0d4c827cfbfb0d14c846bfdb30ebbef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ff5ba6136f85aedfffdad669a09103') in 0.048787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/_OBRAS/vr03.png
+  artifactKey: Guid(b3871c298b64c0c4eb90cdcbefe1427b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/vr03.png using Guid(b3871c298b64c0c4eb90cdcbefe1427b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793ea50a674f8bb58496f68152102401') in 0.050839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 167.917417 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis@2x.png
+  artifactKey: Guid(d0006d51a864248adba0238883f8c71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis@2x.png using Guid(d0006d51a864248adba0238883f8c71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad5ce4f9e6ed9646a4e004711385165') in 0.024756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis@4x.png
+  artifactKey: Guid(a940917cc397643afb071010cb2143d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis@4x.png using Guid(a940917cc397643afb071010cb2143d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d37811c2a7077d5cff72c91345ef5a') in 0.023960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BNG Framework/Textures/BNG_Atlas_A.png
+  artifactKey: Guid(0edc847d036304549826a8591306cad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/BNG_Atlas_A.png using Guid(0edc847d036304549826a8591306cad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e898e883d3401410288078398b1be5d2') in 0.034746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BNG Framework/Textures/BNG_Stick_ao.png
+  artifactKey: Guid(d4c81a68a37c9af4eb0a518ab5391316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/BNG_Stick_ao.png using Guid(d4c81a68a37c9af4eb0a518ab5391316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffe615d52ef87e31bd58027478724fc') in 0.101964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BNG Framework/Textures/bow_smooth.png
+  artifactKey: Guid(9acec2fec2b034d4daf02618d5aae953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/bow_smooth.png using Guid(9acec2fec2b034d4daf02618d5aae953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061f3c4f4a201a9c5f9da7c57b92c8da') in 0.037167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/BNG Framework/Textures/BNG_Stick_s.png
+  artifactKey: Guid(ecd31b057865d574eaca40ffda83d8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/BNG_Stick_s.png using Guid(ecd31b057865d574eaca40ffda83d8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce41cb8e5d245cb5556531910eececcd') in 0.075909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026255 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd
+  artifactKey: Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd using Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109a8d4404e3ea224855f6fb708012a1') in 0.065639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd
+  artifactKey: Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd using Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c10643749532464fc527b244f6af94') in 0.024151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom.psd
+  artifactKey: Guid(ca51b19024094d1b87f3e07edb0a75fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom.psd using Guid(ca51b19024094d1b87f3e07edb0a75fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178b6af75f8ada5087215bf69b34c3e0') in 0.026088 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

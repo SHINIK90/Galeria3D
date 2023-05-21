@@ -1,0 +1,304 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 15791 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+D:/UnityProjects1Tb/Galeria3D
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+65479
+Successfully changed project path to: D:/UnityProjects1Tb/Galeria3D
+D:/UnityProjects1Tb/Galeria3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Unable to join player connection multicast group (err: 10022).
+Unable to join player connection alternative multicast group (err: 10022).
+Refreshing native plugins compatible for Editor in 126.95 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 1.14 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects1Tb/Galeria3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   31.0.15.2225
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.024185 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 427 ms
+Refreshing native plugins compatible for Editor in 118.38 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.451 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1452ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1096ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (803ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (525ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015110 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects1Tb\Galeria3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects1Tb\Galeria3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 104.64 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in D:\UnityProjects1Tb\Galeria3D\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\UnityProjects1Tb\Galeria3D\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7fef092428a04dc89d2aa6ad3ce5d856>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.475 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1476ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1225ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (658ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (391ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.38 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3793 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 132 unused Assets / (114.8 KB). Loaded Objects now: 4169.
+Memory consumption went from 138.6 MB to 138.5 MB.
+Total: 3.507900 ms (FindLiveObjects: 0.360400 ms CreateObjectMapping: 0.102400 ms MarkObjects: 2.869200 ms  DeleteObjects: 0.174100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 105754.905035 seconds.
+  path: Assets/BNG Framework/Materials/Pistol.mat
+  artifactKey: Guid(0eaf56d042d189a46a4569df27725043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/Pistol.mat using Guid(0eaf56d042d189a46a4569df27725043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f8795eb83d6be2186f5c28c09bb5c7') in 0.510487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/BNG Framework/HandPoser/Materials/skin_light.mat
+  artifactKey: Guid(e3cb1f4be91fe5145b3da271852073cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Materials/skin_light.mat using Guid(e3cb1f4be91fe5145b3da271852073cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75d15edbdd26af4ff9050d6e03e301c') in 0.073935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BNG Framework/Materials/puff.mat
+  artifactKey: Guid(7019c1528449e4c499ff70295da5d92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/puff.mat using Guid(7019c1528449e4c499ff70295da5d92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178f180e61f61bdffda2b4695c8422a3') in 0.361781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BNG Framework/Materials/ring.mat
+  artifactKey: Guid(295ead79220757a4c841309e952c292b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/ring.mat using Guid(295ead79220757a4c841309e952c292b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a60db89f341d072be530f68e38b75a') in 0.026071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BNG Framework/Materials/StringMaterial.mat
+  artifactKey: Guid(27247309b9ec8ec4d8629b6ee88cb5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/StringMaterial.mat using Guid(27247309b9ec8ec4d8629b6ee88cb5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa829f3c1ba727c07d42c905d05ca1d') in 0.040628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/BNG Framework/Materials/Skybox Blue.mat
+  artifactKey: Guid(8a9dd7d65456d2143bb45b92da8d67b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/Skybox Blue.mat using Guid(8a9dd7d65456d2143bb45b92da8d67b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed720d53b2cf24590faea2a32f55ab12') in 0.130224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BNG Framework/HandPoser/Materials/skin_mid.mat
+  artifactKey: Guid(c5a0ebcd484b68e4cb2f45b7d2051365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Materials/skin_mid.mat using Guid(c5a0ebcd484b68e4cb2f45b7d2051365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3363078d7186c5f92c68f32768d0cd42') in 0.059248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BNG Framework/HandPoser/Materials/ToonColor 1.mat
+  artifactKey: Guid(119f2e8647a429740becd98659b31f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Materials/ToonColor 1.mat using Guid(119f2e8647a429740becd98659b31f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4a63e97fce83e6beade43719821ad4') in 0.026967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1790.136562 seconds.
+  path: Assets/Free HDR Skyboxes Pack/Material/sky-4.mat
+  artifactKey: Guid(cba8250b9d9377f4ca5ccc7bda47897e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free HDR Skyboxes Pack/Material/sky-4.mat using Guid(cba8250b9d9377f4ca5ccc7bda47897e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadaaba8e107ad2eab3cf06029d9d802') in 0.355544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Free HDR Skyboxes Pack/Material/sky-2.mat
+  artifactKey: Guid(e042e3a075d43734cb2151822f3efb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free HDR Skyboxes Pack/Material/sky-2.mat using Guid(e042e3a075d43734cb2151822f3efb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073fdc0fe73ef69b03b5a359d7b49b93') in 0.195192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 163.047768 seconds.
+  path: Assets/_OBRAS/Illustraciones/Bosque_Alisson_Padilla - Jorge Alvaro Fierro.jpg
+  artifactKey: Guid(7ca3abdfeceb6be45a9ce74c15d15332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/Illustraciones/Bosque_Alisson_Padilla - Jorge Alvaro Fierro.jpg using Guid(7ca3abdfeceb6be45a9ce74c15d15332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c707c929af58f10f6efae6a6f2ea8cad') in 0.174173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/_OBRAS/Illustraciones/Deber 2 PS - Cartel Vintage (00215250) - Jorge Alvaro Fierro.jpg
+  artifactKey: Guid(24d5f82a6abe3734183c1d198535475c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/Illustraciones/Deber 2 PS - Cartel Vintage (00215250) - Jorge Alvaro Fierro.jpg using Guid(24d5f82a6abe3734183c1d198535475c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506e23a1f982374ec3664ecc4cce96e5') in 0.034878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/_OBRAS/Illustraciones/NoSongWithoutYou_Hibah_Faheem - Hibah Faheem.png
+  artifactKey: Guid(23d1e674c80f28246ba073eeb4f6c0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/Illustraciones/NoSongWithoutYou_Hibah_Faheem - Hibah Faheem.png using Guid(23d1e674c80f28246ba073eeb4f6c0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a23a4fc3447e97c01ad122114861da') in 0.048494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/_OBRAS/Illustraciones/finalMesa-de-trabajo-1 - Emilia.png
+  artifactKey: Guid(6833feae3c6f88b4b8c8dd57bcf1e148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/Illustraciones/finalMesa-de-trabajo-1 - Emilia.png using Guid(6833feae3c6f88b4b8c8dd57bcf1e148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb0049f9449dd6b29778ab0743a53d6') in 0.046642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/_OBRAS/Illustraciones/DontLetGo_Hibah_Faheem - Hibah Faheem.png
+  artifactKey: Guid(93b10a7b323d6504dbe4f50ec93cc22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/Illustraciones/DontLetGo_Hibah_Faheem - Hibah Faheem.png using Guid(93b10a7b323d6504dbe4f50ec93cc22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f7dd88147d794cdb6f774f0c2cee0a') in 0.044057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/_OBRAS/Illustraciones/finalMesa-de-trabajo-3 - Emilia.png
+  artifactKey: Guid(7d3024249f1d29b4da4699404f9f2ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/Illustraciones/finalMesa-de-trabajo-3 - Emilia.png using Guid(7d3024249f1d29b4da4699404f9f2ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb59c11198d81af933a75c36ad086f3') in 0.044476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/_OBRAS/Illustraciones/EveningFrost_Hibah_Faheem - Hibah Faheem.png
+  artifactKey: Guid(7e7a5c6b2a5fc484885304220e890127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/Illustraciones/EveningFrost_Hibah_Faheem - Hibah Faheem.png using Guid(7e7a5c6b2a5fc484885304220e890127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9201f0a64f331d04629adfbcbc46431') in 0.069644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/_OBRAS/Illustraciones/Ondas del Eco_Violeta_Mediavilla - Hell is Others.jpg
+  artifactKey: Guid(618f56108aede4a4886e945e6ccb82a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_OBRAS/Illustraciones/Ondas del Eco_Violeta_Mediavilla - Hell is Others.jpg using Guid(618f56108aede4a4886e945e6ccb82a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beacc976e9a6e97945774b136a1c8695') in 0.040442 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

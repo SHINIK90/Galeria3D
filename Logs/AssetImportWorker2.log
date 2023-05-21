@@ -1,0 +1,340 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 15791 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/UnityProjects1Tb/Galeria3D
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+65479
+Successfully changed project path to: D:/UnityProjects1Tb/Galeria3D
+D:/UnityProjects1Tb/Galeria3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Unable to join player connection multicast group (err: 10022).
+Unable to join player connection alternative multicast group (err: 10022).
+Refreshing native plugins compatible for Editor in 122.57 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.94 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects1Tb/Galeria3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   31.0.15.2225
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019262 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 407 ms
+Refreshing native plugins compatible for Editor in 110.33 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.274 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1275ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1004ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (139ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (769ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (501ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.021446 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects1Tb\Galeria3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects1Tb\Galeria3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 117.79 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in D:\UnityProjects1Tb\Galeria3D\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\UnityProjects1Tb\Galeria3D\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7fef092428a04dc89d2aa6ad3ce5d856>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.767 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1769ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1475ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (403ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (818ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (491ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
+Unloading 3793 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 132 unused Assets / (114.9 KB). Loaded Objects now: 4169.
+Memory consumption went from 138.6 MB to 138.5 MB.
+Total: 5.216900 ms (FindLiveObjects: 0.482800 ms CreateObjectMapping: 0.399300 ms MarkObjects: 4.039800 ms  DeleteObjects: 0.292500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 39484.253897 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/Pistol.prefab
+  artifactKey: Guid(b2defb85b986ab243a8c5252fe34a93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/Pistol.prefab using Guid(b2defb85b986ab243a8c5252fe34a93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb92b9dad2732c4af90fb871c5c749c') in 0.651118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/PistolNEW.prefab
+  artifactKey: Guid(6e987ed47215b3a46af930a293e59f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/PistolNEW.prefab using Guid(6e987ed47215b3a46af930a293e59f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a598dbf407c91a4c19fd93b50a00a320') in 0.197741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/Katana 2H.prefab
+  artifactKey: Guid(4b060d28a0db4a64f8f081d3d059f0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/Katana 2H.prefab using Guid(4b060d28a0db4a64f8f081d3d059f0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1592e8b6e2e8d1fbcf07bd38abc5bcf2') in 0.066808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/RifleClipDrum.prefab
+  artifactKey: Guid(490c1345cad1db946a7de74c7daeb0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/RifleClipDrum.prefab using Guid(490c1345cad1db946a7de74c7daeb0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71d1ba66ed6eee8fcaf919931740e9d') in 0.099064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/Katana.prefab
+  artifactKey: Guid(a7d6b8c7104034c459c257fce0277176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/Katana.prefab using Guid(a7d6b8c7104034c459c257fce0277176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25abb12e02ef3fbbaefae5e971c9018') in 0.049316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/PistolClipNEW.prefab
+  artifactKey: Guid(d67544e4468dd0748a81cca8dafdb14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/PistolClipNEW.prefab using Guid(d67544e4468dd0748a81cca8dafdb14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756c16b5de9e565d6d7e4b5f4f296a95') in 0.076572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/Shell.prefab
+  artifactKey: Guid(40171d90eb0131e4ba4e6b623bdb9884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/Shell.prefab using Guid(40171d90eb0131e4ba4e6b623bdb9884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d8d7d8700a22294f473467e54b7c22') in 0.041190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 148.396352 seconds.
+  path: Assets/Galeria Portal/Materials/Grass_39-39_150cm.mat
+  artifactKey: Guid(65daf2474fd77574a96e4a2a1deb1caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galeria Portal/Materials/Grass_39-39_150cm.mat using Guid(65daf2474fd77574a96e4a2a1deb1caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f14d487341006ffe0cea1243599cd8') in 0.050297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.026659 seconds.
+  path: Assets/Galeria Portal/__Metal_Corrogated_Shiny_8.jpg
+  artifactKey: Guid(7f45e97fe7ed3dd49a75f07f696702c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galeria Portal/__Metal_Corrogated_Shiny_8.jpg using Guid(7f45e97fe7ed3dd49a75f07f696702c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f518b9ff7ad20f68402da7bb95187c15') in 0.091389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Galeria Portal/Galeria Portal.fbx
+  artifactKey: Guid(5c126e116547c884c99e686e44166da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galeria Portal/Galeria Portal.fbx using Guid(5c126e116547c884c99e686e44166da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c173ebcf00324b1a3106d9c54799e29f') in 1.639940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Galeria Portal/ExplodingBarrel (2) Variant.prefab
+  artifactKey: Guid(101d5563a5c8808409641988b1d8abed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galeria Portal/ExplodingBarrel (2) Variant.prefab using Guid(101d5563a5c8808409641988b1d8abed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821490483aafdfec5835a7a5d1fe639d') in 0.042157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Galeria Portal/Polished_Concrete_New_0.jpg
+  artifactKey: Guid(fd4317d53c04b8646b4e327a41fad25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galeria Portal/Polished_Concrete_New_0.jpg using Guid(fd4317d53c04b8646b4e327a41fad25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efef8631ba1c2ffddb5c9b47e4a4ad30') in 0.023699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Galeria Portal/RifleClipDrum Variant.prefab
+  artifactKey: Guid(6f4ccafb22cc641459c8f5bed31dc8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galeria Portal/RifleClipDrum Variant.prefab using Guid(6f4ccafb22cc641459c8f5bed31dc8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd70a7b2716401d4524fb82c43bcafe') in 0.065484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Galeria Portal/Translucent_Glass_Tinted.jpg
+  artifactKey: Guid(7632fe720315c5b47aad5c8c61f6e2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galeria Portal/Translucent_Glass_Tinted.jpg using Guid(7632fe720315c5b47aad5c8c61f6e2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7bebdd871428b30bdf168a48e09fe2') in 0.018807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Galeria Portal/Polished_Concrete_New.jpg
+  artifactKey: Guid(11a4305586a3214449dd5429f3280b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galeria Portal/Polished_Concrete_New.jpg using Guid(11a4305586a3214449dd5429f3280b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638f62b7961dbaba5670a19ebb4d64d2') in 0.020537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Galeria Portal/door-silver.JPG
+  artifactKey: Guid(ddcb8c28b0ce6264a8ff99f970c681e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galeria Portal/door-silver.JPG using Guid(ddcb8c28b0ce6264a8ff99f970c681e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9130785acfb0622d2d0f126e055f2e2') in 0.025815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Galeria Portal/Metal_Seamed.jpg
+  artifactKey: Guid(e0c204bff61664341a919bd68347777d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galeria Portal/Metal_Seamed.jpg using Guid(e0c204bff61664341a919bd68347777d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c0a912c8f88c02b7e973dab472cdac') in 0.018194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Galeria Portal/Cinder_Block.jpg
+  artifactKey: Guid(a48375d6bfae6834abd97f438caf2b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galeria Portal/Cinder_Block.jpg using Guid(a48375d6bfae6834abd97f438caf2b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a7f24033859dadaa3ae0de748a034a') in 0.023183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Galeria Portal/Metal_Rough.jpg
+  artifactKey: Guid(43d630a42b91a254d81058a506b1f79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galeria Portal/Metal_Rough.jpg using Guid(43d630a42b91a254d81058a506b1f79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2346a1569221ffd43e6f3b24d4de6147') in 0.019838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Galeria Portal/Metal_Seamed_0.jpg
+  artifactKey: Guid(830d3ebbc7b7d7c4db645918cb8b765a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galeria Portal/Metal_Seamed_0.jpg using Guid(830d3ebbc7b7d7c4db645918cb8b765a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55b8878f782f5e80b5e6533d0a802dd') in 0.017397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Galeria Portal/ExplodingBarrel (1) Variant.prefab
+  artifactKey: Guid(5837bd1446efd7f42ad796bd54d85a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galeria Portal/ExplodingBarrel (1) Variant.prefab using Guid(5837bd1446efd7f42ad796bd54d85a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec2f21c0625ff4ac8e2fa75ac892630') in 0.035215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Galeria Portal/Metal_Corrogated_Shiny.jpg
+  artifactKey: Guid(dba3bc6256efc7442882029c59ff26d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galeria Portal/Metal_Corrogated_Shiny.jpg using Guid(dba3bc6256efc7442882029c59ff26d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1a915803c5aab9f6fed550988a4164') in 0.018692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Galeria Portal/Metal_Grey_01_100cm.jpg
+  artifactKey: Guid(e5a87fac00be80b44a33cccccc980c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galeria Portal/Metal_Grey_01_100cm.jpg using Guid(e5a87fac00be80b44a33cccccc980c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a64829a0f1e24afed98e67685b8451') in 0.035073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Galeria Portal/Desk Variant.prefab
+  artifactKey: Guid(f469e5722deea934791a04f642623457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galeria Portal/Desk Variant.prefab using Guid(f469e5722deea934791a04f642623457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ee8c2585f3a133b94b4516aa4b578d') in 0.048509 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
